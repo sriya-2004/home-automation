@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Automation Dashboard</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏠 Home Automation Dashboard</h1>
+  </header>
+
+  <main>
+    <section id="controls">
+      <h2>Device Controls</h2>
+      <div class="device" id="light-control">
+        <label for="light-toggle">Living Room Light:</label>
+        <button id="light-toggle" onclick="toggleDevice('light')">Turn ON</button>
+        <span id="light-status">OFF</span>
+      </div>
+      <!-- Add more device controls similarly -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Home Automation Inc.</p>
+  </footer>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
